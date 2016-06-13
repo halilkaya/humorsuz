@@ -27,12 +27,13 @@ window.__DRAFTS__ = [
   "Asfaltta <%= random('noun') %> pişirdiler",
   "Bilim dünyasını şok eden keşif!",
   "<%= random('famous') %> öyle bir şey dedi ki",
+  "İşte villada <%= random('game') %> oynarken yakalanan o ünlüler!"
 ];
 
 window.__OBJECTS__ = {
   'famous': ['Guido Van Rossum', 'Alva Noto', 'Tom Odell',
              'Evgeny Grinko'],
-  'game': ['saklambaç', 'körebe', 'halay', 'zeybek', 'seksek', 'piyano'],
+  'game': ['saklambaç', 'körebe', 'halay', 'zeybek', 'seksek', 'piyano', 'kumar'],
   'group': ['veliler', 'emekliler'],
   'organizationMember': ['sevenleri', 'fanları', 'ayranları'],
   'vehicle': ['metrobüs', 'at', 'Tom Odell', 'Evgeny Grinko', 'selfie çubuğu', 'Boeing 777'],
@@ -97,5 +98,6 @@ window.__IMAGES__ = {
   'selfie çubuğu': ['selfie.png', 'centered'],
   'Boeing 777': ['b77.png', 'centered'],
   'yağmur': ['piyano.png', 'cover'],
-  'sıcak': ['asfalt.png', 'cover']
+  'sıcak': ['asfalt.png', 'cover'],
+  'kumar': ['kumar.png', 'cover']
 };
