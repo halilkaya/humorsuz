@@ -1,0 +1,3 @@
+### Humorsuz
+
+Rastgele manşet üreteçi

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Humorsuz</title>
+  <style>
+    body {
+      width: 800px;
+      margin: 50px auto;
+      font-family: sans-serif;
+      line-height: 1.3em;
+    }
+
+    a {
+      color: #ff6262;
+    }
+
+    .cover {
+      width: 600px;
+      background-size: cover;
+      background-position: center center;
+      height: 300px;
+      overflow: hidden;
+    }
+
+    .cover img {
+      width: 400px;
+    }
+
+    footer {
+      margin-top: 50px;
+      border-top: 1px solid #dedede;
+    }
+
+    footer h4 {
+      margin: 10px 0 0;
+    }
+
+    footer p {
+      margin: 5px 0;
+    }
+
+    #title {
+      margin-bottom: 9px;
+    }
+
+    #images {
+      margin-top: 9px;
+      height: 300px;
+      overflow: hidden;
+    }
+  </style>
+</head>
+<body>
+  <h3 id="title"></h3>
+  <p id="images"><p>
+  <script type="text/template" id="image-template">
+    <div style="background-image: url(<%= cover %>);" class="cover">
+      <img src="<%= object %>" />
+    </div>
+  </script>
+  <p>
+    <a href="/" id="generate" class="refresh">Değiştir</a>
+  </p>
+  <footer>
+    <h4>Humorsuz</h4>
+    <p>Rastgele haber manşetleri oluşturur. <br />
+     Taslaklar için <a href="http://github.com/fatiherikli/humorsuz">pull request</a> gönderebilirsiniz.</p>
+  </footer>
+  <script src="js/lodash.js"></script>
+  <script src="js/fixtures.js"></script>
+  <script src="js/main.js"></script>
+  <script>initApp();</script>
+</body>
+</html>
