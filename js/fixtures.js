@@ -27,18 +27,19 @@ window.__DRAFTS__ = [
   "Asfaltta <%= random('noun') %> pişirdiler",
   "Bilim dünyasını şok eden keşif!",
   "<%= random('famous') %> öyle bir şey dedi ki",
-  "İşte villada <%= random('game') %> oynarken yakalanan o ünlüler!"
+  "İşte villada <%= random('game') %> oynarken yakalanan o ünlüler!",
+  "Ünlü şarkıcı <%= random('famous') %>, <%= random('game') %> oynayan arkadaşını <%= random('number') %> yerinden bıçakladı"
 ];
 
 window.__OBJECTS__ = {
   'famous': ['Guido Van Rossum', 'Alva Noto', 'Tom Odell',
-             'Evgeny Grinko'],
+             'Evgeny Grinko', 'Kahtalı Mıçı'],
   'game': ['saklambaç', 'körebe', 'halay', 'zeybek', 'seksek', 'piyano', 'kumar'],
   'group': ['veliler', 'emekliler'],
   'organizationMember': ['sevenleri', 'fanları', 'ayranları'],
   'vehicle': ['metrobüs', 'at', 'Tom Odell', 'Evgeny Grinko', 'selfie çubuğu', 'Boeing 777'],
   'punishment': ['idam', 'hapis', 'halay', 'zeybek'],
-  'town': ['Burdur', 'Bilecik', 'Ankara', 'Karabük', 'Bolu', 'Samsun', 'Adana'],
+  'town': ['Burdur', 'Bilecik', 'Ankara', 'Karabük', 'Bolu', 'Samsun', 'Adana', 'Adıyaman'],
   'weapon': ['roketatar', 'muz', 'ak-47', 'gülle', 'Evgeny Grinko', 'nükleer silah', 'selfie çubuğu'],
   'bug': ['lama', 'menemen', 'selfie çubuğu'],
   'noun': [
