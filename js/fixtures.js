@@ -102,5 +102,5 @@ window.__IMAGES__ = {
   'yağmur': ['piyano.png', 'cover'],
   'sıcak': ['asfalt.png', 'cover'],
   'kumar': ['kumar.png', 'cover'],
-  'Kahtalı Mıçı': ['hegel.png', 'centered']
+  'Kahtalı Mıçı': ['kahtalimici.png', 'centered']
 };
