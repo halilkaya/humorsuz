@@ -74,6 +74,7 @@ window.__IMAGES__ = {
   'Bilecik': ['bilecik.png', 'cover'],
   'Ankara': ['ankara.png', 'cover'],
   'Adana': ['adana.png', 'cover'],
+  'Adıyaman': ['adiyaman.png', 'cover'],
   'Karabük': ['karabuk.png', 'cover'],
   'Bolu': ['bolu.png', 'cover'],
   'Samsun': ['samsun.png', 'cover'],
@@ -100,5 +101,6 @@ window.__IMAGES__ = {
   'Boeing 777': ['b77.png', 'centered'],
   'yağmur': ['piyano.png', 'cover'],
   'sıcak': ['asfalt.png', 'cover'],
-  'kumar': ['kumar.png', 'cover']
+  'kumar': ['kumar.png', 'cover'],
+  'Kahtalı Mıçı': ['kahtalimici.png', 'centered']
 };
