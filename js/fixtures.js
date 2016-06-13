@@ -25,7 +25,8 @@ window.__DRAFTS__ = [
   "<%= random('town', ['quote', 'static']) %> tarım arazilerinde <%= random('bug') %> istilası",
   "<%= random('town', ['quote', 'static']) %> yasağa sinirlenip kepçeyle <%= random('noun') %> yediler",
   "Asfaltta <%= random('noun') %> pişirdiler",
-  "Bilim dünyasını şok eden keşif!"
+  "Bilim dünyasını şok eden keşif!",
+  "<%= random('famous') %> öyle bir şey dedi ki",
 ];
 
 window.__OBJECTS__ = {
