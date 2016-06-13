@@ -24,7 +24,8 @@ window.__DRAFTS__ = [
   "<%= random('town', ['quote', 'static']) %> bu sabah yapılan operasyonda <%= random('number') %> adet kaçak <%= random('weapon') %> ele geçirildi",
   "<%= random('town', ['quote', 'static']) %> tarım arazilerinde <%= random('bug') %> istilası",
   "<%= random('town', ['quote', 'static']) %> yasağa sinirlenip kepçeyle <%= random('noun') %> yediler",
-  "Asfaltta <%= random('noun') %> pişirdiler"
+  "Asfaltta <%= random('noun') %> pişirdiler",
+  "Bilim dünyasını şok eden keşif!"
 ];
 
 window.__OBJECTS__ = {
@@ -39,7 +40,7 @@ window.__OBJECTS__ = {
   'weapon': ['roketatar', 'muz', 'ak-47', 'gülle', 'Evgeny Grinko', 'nükleer silah', 'selfie çubuğu'],
   'bug': ['lama', 'menemen', 'selfie çubuğu'],
   'noun': [
-    'buzdolabı', 'menemen', 'gülle', 'at', 
+    'buzdolabı', 'menemen', 'gülle', 'at',
     'muz', 'Tom Odell', 'ak-47', 'roketatar',
     'Macbook Pro', 'sigara', 'Evgeny Grinko',
     'nükleer silah', 'Boeing 777',
